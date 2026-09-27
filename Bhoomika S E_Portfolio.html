@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bhoomika S E, Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <nav class="wrap">
+    <div class="logo">BHOOMIKA <span>S E</span></div>
+    <ul class="navlinks" id="navLinks">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:14px">
+      <div class="hire"><i></i>Open to work</div>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Software Engineer · Full-Stack &amp; IoT Systems</div>
+      <h1>Building software<br>that behaves like<br>good engineering.</h1>
+      <p class="lead">Computer Science graduate (B.E., 2025) shipping full-stack apps in Java, Spring Boot and React, plus IoT systems that bridge hardware and cloud. I like problems with a correct answer.</p>
+      <div class="cta-row">
+        <a class="btn btn-solid" href="mailto:bhoomikase15@gmail.com">Email me →</a>
+        <a class="btn btn-line" href="https://github.com/bhoomika150304" target="_blank" rel="noopener">View GitHub</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>2025</b><span>B.E. Graduate</span></div>
+        <div class="stat"><b>5</b><span>Shipped projects</span></div>
+        <div class="stat"><b>98%</b><span>CV model accuracy</span></div>
+      </div>
+    </div>
+    <div class="portrait-wrap">
+      <div class="frame">
+        <svg class="corners" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path d="M0,14 L0,0 L14,0" transform="translate(0,0)"/>
+          <path d="M86,0 L100,0 L100,14"/>
+          <path d="M100,86 L100,100 L86,100"/>
+          <path d="M14,100 L0,100 L0,86"/>
+        </svg>
+        <div class="photo"><img src="unnamed.jpg">
+        <div class="stamp">APPROVED</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </div>
+
+  <section id="skills" class="reveal">
+    <div class="sec-head">
+      <h2>Technical specifications</h2>
+      <p>Tools and languages I reach for, grouped by where they're used.</p>
+    </div>
+    <div id="skillRows"></div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <div class="sec-head">
+      <h2>Selected builds</h2>
+      <p>Five projects spanning computer vision, IoT and full-stack web.</p>
+    </div>
+    <div class="proj-grid" id="projGrid"></div>
+    <a class="more-link" href="https://github.com/bhoomika150304" target="_blank" rel="noopener">See the rest of the repos on GitHub →</a>
+  </section>
+
+  <section id="education" class="reveal">
+    <div class="sec-head">
+      <h2>Education</h2>
+      <p>Formal education and certifications completed alongside it.</p>
+    </div>
+    <div class="cred-grid">
+      <div>
+        <div class="edu-item"><b>Bachelor of Engineering</b><span>Sri Krishna College of Engineering &amp; Technology · May 2025 · 8.05/10</span></div>
+        <div class="edu-item"><b>Technical Diploma</b><span>PSG Polytechnic College · May 2022 · 8.2/10</span></div>
+      </div>
+      <ul class="cert-list" id="certList"></ul>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="contact-grid">
+      <div>
+        <h2>Let's build something.</h2>
+        <p>Looking for an entry-level Software Engineer / IT role where automation, problem-solving and system design actually matter. Based in Tiruchirapalli, open to relocating.</p>
+        <div class="rows">
+          <div class="row"><span>Email</span><span style="display:flex;gap:10px;align-items:center">bhoomikase15@gmail.com<button class="copy-btn" id="copyBtn" data-copy="bhoomikase15@gmail.com">Copy</button></span></div>
+          <div class="row"><span>Phone</span><span>+91 99940 17698</span></div>
+          <div class="row"><span>Location</span><span>Tiruchirapalli, Tamil Nadu, IN</span></div>
+        </div>
+      </div>
+      <div class="link-stack">
+        <a class="link-btn" href="http://www.linkedin.com/in/bhoomika-s-e-815537258" target="_blank" rel="noopener"><b>LinkedIn</b><span>Profile →</span></a>
+        <a class="link-btn" href="https://github.com/bhoomika150304" target="_blank" rel="noopener"><b>GitHub</b><span>Repos →</span></a>
+        <a class="link-btn" href="https://leetcode.com/u/d7Mr5b3Jrt/" target="_blank" rel="noopener"><b>LeetCode</b><span>Problems →</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>Designed &amp; built by Bhoomika S E · <span id="yr"></span></span>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
